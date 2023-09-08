@@ -1,0 +1,161 @@
+@font-face {
+    font-family:'Antique Olive Std';
+    src: url("../fonts/AntiqueOliveStd-Compact.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family:'Antique Olive';
+  src: url("../fonts/antiqueolive.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: 'Antique Olive Std';
+    color: #4b0051;
+    width: 100%;
+    background-image: url("../images/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.header {
+  width: 100%;
+  padding-bottom: 5px;
+  padding-top: 30px;
+}   
+
+ 
+  .menu {
+    margin:0 auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .header-icons {
+    display: flex;
+    position: relative;
+    bottom: 35px;
+    gap: 11px;
+  }
+
+  a {
+    text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+
+
+.icon {
+  
+  width: 2.8vw;
+  height: 2.8vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+  
+}
+
+
+.vk {
+  background-image: url("../images/vk.png")
+}
+.instagram {
+background-image: url("../images/Instagram_icon.png")
+}
+.ok {
+background-image: url("../images/ok.png")
+}
+.twitter {
+background-image: url("../images/pngimg.com\ -\ twitter_PNG3.png")
+}
+
+.title {
+  font-size: 9vw;
+}
+.litle-title {
+  font-size: 4vw;
+}
+
+.movie-section {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.movie {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-card {
+  
+  max-width: 20%;
+  box-sizing: border-box;
+  
+}
+
+.movie-card:nth-child(n + 2) {
+  margin-left: 2vw;
+  box-sizing: border-box;
+}
+
+.card-img {
+  max-width: 100%;
+}
+
+.card-title {
+  font-size: 4vh;
+  text-align: center;
+}
+
+.movie-big-title {
+  font-size: 6vh;
+  text-align: center;
+  margin-top: 26px;
+}
+
+.footer {
+  display: flex;
+  max-width: 1308px;
+  margin: 0 auto;
+  padding-top: 24px;
+  
+}
+
+.location {
+  display: flex;
+  margin-right: 130px;
+  align-items: end;
+}
+.time {
+  display: flex;
+  align-items: end;
+}
+.location-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 23px;
+}
+
+.text-footer {
+  font-family:'Antique Olive';
+  font-size: 1.5vw;
+}
+
